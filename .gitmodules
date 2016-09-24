@@ -1,3 +1,6 @@
 [submodule "exercism-ruby"]
 	path = exercism-ruby
 	url = git@github.com:v-kolesnikov/exercism-ruby.git
+[submodule "exercism-elixir"]
+	path = exercism-elixir
+	url = git@github.com:v-kolesnikov/exercism-elixir.git
