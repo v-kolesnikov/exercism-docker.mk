@@ -21,7 +21,7 @@ fetch:
 	docker $(RUN) $(TAG) exercism fetch $(EXERCISM_LANG)
 
 test:
-	docker run --rm $(TAG) make test
+	docker $(RUN) $(TAG) $(TEST_COMMAND)
 
 all: build test
 
