@@ -20,6 +20,9 @@ clean:
 fetch:
 	docker $(RUN) $(TAG) exercism fetch $(EXERCISM_LANG)
 
+status:
+	docker $(RUN) $(TAG) exercism status $(EXERCISM_LANG)
+
 test:
 	docker $(RUN) $(TAG) $(TEST_COMMAND)
 
