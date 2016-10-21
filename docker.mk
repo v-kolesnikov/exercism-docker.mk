@@ -20,6 +20,9 @@ clean:
 fetch:
 	docker $(RUN) $(TAG) exercism fetch $(EXERCISM_LANG)
 
+submit:
+	docker $(RUN) $(TAG) exercism submit lib/exercism/$(EXERCISM_LANG)/${EXERCISE}
+
 status:
 	docker $(RUN) $(TAG) exercism status $(EXERCISM_LANG)
 
@@ -28,4 +31,4 @@ test:
 
 all: build test
 
-.PHONY:
+.PHONY: test
