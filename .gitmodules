@@ -1,9 +1,0 @@
-[submodule "exercism-ruby"]
-	path = exercism-ruby
-	url = git@github.com:v-kolesnikov/exercism-ruby.git
-[submodule "exercism-elixir"]
-	path = exercism-elixir
-	url = git@github.com:v-kolesnikov/exercism-elixir.git
-[submodule "exercism-es6"]
-	path = exercism-es6
-	url = git@github.com:v-kolesnikov/exercism-es6.git
