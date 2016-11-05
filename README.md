@@ -2,7 +2,7 @@
 
 ## Usage
 
-Add to your Makefile follow lines:
+Add the following lines to your Makefile:
 
 ```makefile
 EXERCISM_LANG := %language%
@@ -12,9 +12,9 @@ test::
     %test_command%
 ```
 
-Now you can make some exercism cli commands from docker:
+Now you can run some exercism cli commands with Docker:
 
-- `make fetch`: fetch next uncomplete exercixse for EXERCISM_LANG
+- `make fetch`: fetch next uncompleted exercise for EXERCISM_LANG
 - `make status`: show your status on exercism.io by EXERCISM_LANG
 - `make submit EXERCISE=%path to exercise file%`: submit EXERCISE to exercism.io
 
